@@ -456,7 +456,6 @@ header{
     gap: 40px;
     max-width: 1200px;
     margin: 0 auto;
-    /* padding: 55px 20px; */
     padding: 15px 50px;
 }     
 
@@ -493,11 +492,6 @@ header{
     border-radius:10px;
 }
 
-/* .posts-image{
-    height:205px;
-    width:350px;
-    border-radius: 10px;
-} */
 
 .content-meta span{
     font-family: var(--ff-primary);
@@ -547,7 +541,6 @@ header{
         width: 750px;
         max-width: 900px;
         margin: 0 auto;
-        /* padding: 20px 30px; */
         padding-left: 40px;
         padding-top: 35px;
     }
@@ -566,7 +559,6 @@ header{
 
     .posts-card{
         display: flex;
-       /*  width: 650px; */
         max-width: 700px;
         width: 100%;
     } 
@@ -577,7 +569,6 @@ header{
 
 
     .featured-posts{
-       /* padding: 15px 30px; */
        padding-left: 40px;
     }
 }
