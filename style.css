@@ -51,6 +51,7 @@ header{
 .hero-image{
     width: 150px;
     height: auto;
+    cursor: pointer;
 }
 
 .logo-png{
