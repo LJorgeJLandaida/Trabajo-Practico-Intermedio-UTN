@@ -457,7 +457,7 @@ header{
     gap: 40px;
     max-width: 1200px;
     margin: 0 auto;
-    padding: 15px 50px;
+    padding: 60px 50px;
 }     
 
 .posts-grid{
@@ -542,7 +542,7 @@ header{
         width: 750px;
         max-width: 900px;
         margin: 0 auto;
-        padding-left: 40px;
+        padding-left: 30px;
         padding-top: 35px;
     }
 
@@ -571,5 +571,51 @@ header{
 
     .featured-posts{
        padding-left: 40px;
+    }
+}
+
+
+
+
+.conteiner-section{
+    background-color: rgb(248, 249, 250);
+}
+
+.blog-section{
+    background-color: rgb(248, 249, 250);
+    display: flex;
+    flex-direction: column;
+    justify-content:left;
+    width: 100%;
+    gap: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 100px 30px;
+}     
+
+.intro-text{
+    font-size: 14px;
+    font-family: var(--ff-primary);
+    color: #797980;
+}
+
+.section-clients{
+    font-family: var(--ff-primary);
+    color: var(--color-text-img);
+    font-size: 34px;
+    font-weight: 700;
+    letter-spacing: normal;
+    text-align: left;
+    font-style: normal;
+    margin: 0;
+}
+
+
+@media screen and (max-width: 1024px)
+{
+    .blog-section{
+        width: 750px;
+        max-width: 900px;
+        margin: 0 auto;
     }
 }
