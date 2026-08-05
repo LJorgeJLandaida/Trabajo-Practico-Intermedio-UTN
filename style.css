@@ -491,6 +491,7 @@ header{
     height:205px;
     object-fit:cover;
     border-radius:10px;
+    cursor: pointer;
 }
 
 
